@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"/>
+    <link rel="shortcut icon" type="x-icon" href="media/logo.png" >
+</head>
+<body>
+    <nav>
+        <a href="#" class="logo "><span>Balu</span></a>
+        
+
+        <ul class="links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="https://drive.google.com/file/d/1eMEVVfjrO-F0scOBAoAJe5r_yGcTRNB0/view?usp=sharing">Resume</a>
+            <a href="#contact">Contact</a>
+        </ul>
+
+        <i class='bx bx-menu-alt-right' id="menu"></i>
+
+        <a href="mailto:balasubramanyamsai.gampala@gmail.com?subject=Hello" class="btn"> Contact me</a>
+    </nav>
+
+    <section id="home">
+        <img src="media/image.jpg" alt="">
+
+        <div class="info-box">
+            <h1><span> Hello,I'm Bala Subramanyam Sai</span></h1>
+            <h3><span>Web Developer</span></h3>
+            <p>I am a passionate web developer with a keen eye for design. I have worked on various projects using HTML, CSS, and JavaScript.</p>
+
+        </div>
+
+        <div class="btn-box">
+            <a class="btn" href="mailto:balasubramanyamsai.gampala@gmail.com?subject=Hello">Contact Me</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-box">
+            <div class="about-info">
+                <h1><span>About Me</span></h1>
+                <p>Passionate about sharing knowledge and fostering growth.Successfully completed internships in AI-ML and Android development, demonstrating strong analytical skills, problem-solving abilities, and a passion for technology. Adept at working in collaborative environments and committed to continuous learning and professional growth</p>
+            </div>
+            <h2><span>Skills</span></h2>
+
+            <div class="skills">
+                <ul>
+                    <li>
+                        <span><i class='bx bxl-html5'></i>HTML</span>
+                    </li>
+                    <li>
+                        <span><i class='bx bxl-css3'></i>CSS</span>
+                    </li>
+                    <li>
+                        <span><i class='bx bxl-javascript'></i>JavaScript</span>
+                    </li>
+                    <li>
+                        <span><i class='bx bxl-react'></i>React</span>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <span><i class='bx bxl-c-plus-plus'></i>C++</span>
+                    </li>
+                    <li>
+                        <span><i class='bx bxl-java'></i>Java</span>
+                    </li>
+                    <li>
+                        <span><i class='bx bxl-python'></i>Python</span>
+                    </li>
+                    
+                    <li>
+                        <span><i class='bx bxl-mongodb'></i>MongoDB</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <img src="media/skills.png" alt="">
+    </section>
+
+    <section id="projects">
+        <h1 class="header"><span>Projects</span></h1>
+        <div class="project-container">
+        <a href="https://227r5a6609.github.io/quiz/" target="_blank">
+            <div class="box" >       
+                <h1><span>Quiz API</span></h1>
+                <p>A quiz game is an interactive game where players answer a series of questions on various topics.We Aiming to score the highest by providing correct answers. The game can have multiple rounds or categories, and often includes time limits for added challenge. It's a fun way to test knowledge and learn new facts.</p>
+                <img src="media/quiz.jpg" alt="">
+            </div>
+        </a>
+        <a href="https://227r5a6609.github.io/G-map-api/" target="_blank">
+            <div class="box">
+                <h1><span>Gmaps API</span></h1>
+                <p>GMap is an interactive game that uses Google Maps to challenge players in locating specific places or landmarks. Players are given clues or coordinates and must find the correct location on the map. The game tests geography knowledge and navigation skills while providing a fun, educational experience.</p>
+                <img src="media/gmap.jpg" alt="">
+            </div>
+        </a>
+        <a href="https://227r5a6609.github.io/tic-tac-toe/" target="_blank">
+            <div class="box">
+                <h1><span>Tic Tac Toe</span></h1>
+                <p>Tic-Tac-Toe is a simple two-player game played on a 3x3 grid. Players take turns marking empty cells with either an "X" or an "O", aiming to get three marks in a row, either horizontally, vertically, or diagonally. The game ends when one player wins or when all cells are filled, resulting in a draw if there’s no winner.</p>
+                <img src="media/tictactoe.png" alt="">
+            </div>
+        </a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="header"><span>Contact</span></h1>
+        <form action="#" id="contact-form">
+            <div class="input-box">
+                <span>Full Name</span>
+                <input type="text" name="name" placeholder="Enter your full name">
+            </div>
+            <div class="input-box">
+                <span>Your Email</span>
+                <input type="email" name="email" placeholder="Enter your Mail ID">
+            </div>
+            <div class="input-box">
+                <span>Your message</span>
+                <textarea name="message" placeholder="Enter your Message" required class="custom-textarea"></textarea>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="col-left">
+            <div class="col-box">
+                <span><i class='bx bx-current-location'></i></span>
+                <span>Hyderabad,Telangana, India</span>
+            </div>
+            <div class="col-box">
+                <span><i class='bx bxs-phone'></i></span>
+                <span>+91 6281679774</span>
+            </div>
+            <div class="col-box">
+                <span><i class='bx bxs-envelope'></i></span>
+                <span>balasubramanyamsai.gampala@gmail.com</span>
+            </div>
+        </div>
+        <div class="col-right">
+            <span>About Me</span>
+            <p>Hey everyone! I'm Balu. I love collaborating on exciting projects and sharing ideas. Let’s connect and create something amazing together! 🚀 #Collaboration #Networking"</p>
+
+            <div class="social-icons">
+                <span><i class='bx bxl-facebook-square'></i></a></span>
+                <span><a href="https://www.linkedin.com/in/balasubramanyamsai-hyderabad/" target="_blank"><i class='bx bxl-linkedin-square' ></i></a></span>
+                <span><a href="https://www.instagram.com/balu_.05._/" target="_blank"><i class='bx bxl-instagram' ></i></a></span>
+                <span><a href="https://github.com/227r5a6609" target="_blank"><i class='bx bxl-github' ></i></a></span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
